@@ -87,21 +87,22 @@ pip install -r requirements.txt
 ``` bash
 streamlit run app.py
 
+```
 
-
-💡 Design Trade-offs & Assumptions
+## 💡 Design Trade-offs & Assumptions
 
 Free-tier compliance: Avoided paid APIs; used regex + keyword extraction.
 Confidence scoring: Used exponential decay to balance frequency and recency.
 Synthetic data realism: Balanced realism with privacy.
 UI clarity: Focused on explainable outputs over heavy styling.
 
- Bias Mitigation
+ ## Bias Mitigation
 
 Ignore demographic indicators in processing.
 Evaluate skills only, not personal traits.
 Apply consistent rubrics for all candidates.
 Provide transparent, evidence-based reports.
+
 
 
 
