@@ -10,3 +10,5 @@ streamlit>=1.34.0
 # Optional API (not used by default but handy)
 fastapi>=0.110.0
 uvicorn[standard]>=0.29.0
+
+matplotlib
