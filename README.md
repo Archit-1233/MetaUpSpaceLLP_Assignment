@@ -6,6 +6,7 @@ It automates candidate profiling, assessment creation, soft-skill evaluation, an
 ## Please check the deployed streamlit app here : 
 https://archit-1233-metaupspacellp-assignment-full-app-x2ty0q.streamlit.app/
 ## 🎥 Demo Video
+*Click the thumbnail below to watch the demo video.*
 
 [![Watch the video](https://github.com/user-attachments/assets/851874ad-a27d-4bb9-8240-8979a76bda3c)](https://drive.google.com/file/d/1Y6ZCTS3m-auHa3s_p42D3-hOo-XId0BB/view?usp=sharing)
 
@@ -125,6 +126,7 @@ Ignore demographic indicators in processing.
 Evaluate skills only, not personal traits.
 Apply consistent rubrics for all candidates.
 Provide transparent, evidence-based reports.
+
 
 
 
