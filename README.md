@@ -72,11 +72,14 @@ To ensure **privacy compliance**, all input data is **synthetic**:
 ## 1. Clone Repository
 ```bash
 git clone https://github.com/yourusername/multi-agent-recruitment.git
-cd multi-agent-recruitment
 
+
+---
 
 
 ### 2. Create Virtual Environment
+```bash
+
 python -m venv venv
 source venv/bin/activate   # macOS/Linux
 venv\Scripts\activate      # Windows
@@ -102,6 +105,7 @@ Ignore demographic indicators in processing.
 Evaluate skills only, not personal traits.
 Apply consistent rubrics for all candidates.
 Provide transparent, evidence-based reports.
+
 
 
 
