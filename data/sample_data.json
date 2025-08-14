@@ -1,0 +1,118 @@
+{
+  "candidates": [
+    {
+      "id": "cand_001",
+      "name": "Riya Sharma",
+      "linkedin_summary": "AI/ML enthusiast with internships in computer vision and NLP. Comfortable with Python, PyTorch, scikit-learn, pandas, and deploying small Flask services. Built LLM prompt engineering experiments for RAG prototypes.",
+      "work_history": [
+        {
+          "company": "VisionLabs",
+          "title": "Computer Vision Intern",
+          "from": "2023",
+          "to": "2024",
+          "description": "Trained CNNs and fine-tuned vision transformers for defect detection; collaborated with teammates; documented results.",
+          "tech": "Python, PyTorch, OpenCV",
+          "impact": "Improved F1 by 7% and reduced inference cost by 15%"
+        },
+        {
+          "company": "NLPWorks",
+          "title": "NLP Research Intern",
+          "from": "2024",
+          "to": "2025",
+          "description": "Built text classifiers; prompt engineering for LLM; created FastAPI service; wrote unit tests.",
+          "tech": "Python, Transformers, FastAPI",
+          "impact": "Shipped an API used by 3 internal teams"
+        }
+      ],
+      "github": {
+        "repos": [
+          {
+            "name": "cv-defects",
+            "description": "Image defect detection with transfer learning",
+            "languages": ["Python"],
+            "stars": 42,
+            "topics": ["computer vision", "cnn", "transformer"]
+          },
+          {
+            "name": "rag-lab",
+            "description": "RAG pipeline with vector store and prompt engineering",
+            "languages": ["Python"],
+            "stars": 27,
+            "topics": ["llm", "rag", "nlp", "prompt engineering"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cand_002",
+      "name": "Arjun Verma",
+      "linkedin_summary": "Data generalist: sklearn, XGBoost, SQL; strong with data pipelines. Some Docker + MLOps. Built dashboards and model monitoring.",
+      "work_history": [
+        {
+          "company": "DataFlow",
+          "title": "ML Intern",
+          "from": "2022",
+          "to": "2023",
+          "description": "Implemented feature store; optimized XGBoost; mentored juniors; wrote docs.",
+          "tech": "Python, scikit-learn, XGBoost, SQL, Docker",
+          "impact": "Cut training time by 30%"
+        },
+        {
+          "company": "RetailAI",
+          "title": "Junior ML Engineer",
+          "from": "2023",
+          "to": "2025",
+          "description": "Own ETL pipelines; deployed models with Docker + CI; collaborated with stakeholders.",
+          "tech": "Python, SQL, Docker, Pandas",
+          "impact": "Stabilized pipelines and improved SLAs"
+        }
+      ],
+      "github": {
+        "repos": [
+          {
+            "name": "etl-utils",
+            "description": "Dataframe utilities in pandas",
+            "languages": ["Python"],
+            "stars": 11,
+            "topics": ["pandas", "numpy", "data quality"]
+          },
+          {
+            "name": "mlops-notes",
+            "description": "Notes on MLOps and kubernetes",
+            "languages": ["Markdown"],
+            "stars": 5,
+            "topics": ["mlops", "kubernetes", "docker"]
+          }
+        ]
+      }
+    }
+  ],
+  "jobs": [
+    {
+      "id": "job_ai_intern_001",
+      "title": "AI Intern – Applied ML/LLMs",
+      "level": "intern",
+      "must_have_skills": ["python", "scikit-learn", "pytorch", "nlp or cv"],
+      "nice_to_have_skills": ["llm", "mlops", "docker", "sql"]
+    }
+  ],
+  "transcripts": {
+    "cand_001": "I like to clarify requirements early and keep the team in the loop. When a training job failed, I paired with a teammate to debug and document the root cause. I appreciate feedback and present tradeoffs clearly.",
+    "cand_002": "I usually organize stakeholders, communicate risks, and design incremental rollouts. When pipelines were late, I avoided blame and focused on solutions with the team. I listen and respect deadlines."
+  },
+  "market_data": {
+    "regions": ["India", "EU", "US"],
+    "salary_benchmarks": {
+      "India": { "intern": [20000, 50000], "junior": [600000, 1200000] },
+      "EU":    { "intern": [800, 1800],   "junior": [35000, 60000] },
+      "US":    { "intern": [1500, 3500],  "junior": [80000, 120000] }
+    },
+    "demand_by_skill": { "python": 95, "pytorch": 70, "tensorflow": 55, "llm": 80, "nlp": 65, "cv": 60, "sql": 75, "docker": 60, "mlops": 50 },
+    "channel_effectiveness": {
+      "LinkedIn": { "python": 0.8, "llm": 0.7, "sql": 0.85, "docker": 0.7 },
+      "GitHub":   { "python": 0.9, "pytorch": 0.85, "cv": 0.8, "llm": 0.75 },
+      "Kaggle":   { "python": 0.75, "nlp": 0.7, "cv": 0.8 },
+      "Reddit":   { "mlops": 0.6, "llm": 0.5 }
+    }
+  }
+}
