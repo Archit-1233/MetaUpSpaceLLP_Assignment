@@ -5,6 +5,8 @@ This project is a prototype for the **AI Intern Hiring Task: Multi-Agent Recruit
 It automates candidate profiling, assessment creation, soft-skill evaluation, and market analysis through **four specialized AI agents**, all integrated into a **Streamlit-based interface**.
 ## Please check the deployed streamlit app here : 
 https://archit-1233-metaupspacellp-assignment-full-app-x2ty0q.streamlit.app/
+## 🎥 Demo Video
+[![Watch the video](<img width="1388" height="843" alt="image" src="https://github.com/user-attachments/assets/851874ad-a27d-4bb9-8240-8979a76bda3c" />)](https://drive.google.com/file/d/1Y6ZCTS3m-auHa3s_p42D3-hOo-XId0BB/view?usp=sharing)
 
 ### Screenshots:
 
@@ -121,6 +123,7 @@ Ignore demographic indicators in processing.
 Evaluate skills only, not personal traits.
 Apply consistent rubrics for all candidates.
 Provide transparent, evidence-based reports.
+
 
 
 
